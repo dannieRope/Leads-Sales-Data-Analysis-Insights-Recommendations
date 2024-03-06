@@ -121,6 +121,11 @@ The formulas provided below are utilized to retrieve information from the sales 
    Conversion Day = IFERROR([@OrderDate]-[@[Lead date]],"Not Converted")
    ```
 
+Bellow is the image of the Data after cleaning and preparation, ready for analysis. 
+
+![Data](https://github.com/dannieRope/Leads-Sales-Data-Analysis-Insights-Recommendations/assets/132214828/8b0a3c6e-9ffa-4b94-93bb-b7e3518dac4d)
+
+
 
 
 
