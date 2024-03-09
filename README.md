@@ -189,6 +189,14 @@ To answer the business questions, I created pivot tables to summarize and aggreg
 3.	With a 40% conversion rate deemed satisfactory, all agents, excluding Angela, Toby, and Ryan, exhibited commendable conversion rates.
 
 
+# THE DASHBOARD 
+
+Now, let's bring everything together on a dashboard. Think of it like a picture that shows important information in a simple and clear way. Dashboards make complex things easy to understand, so you can make smart decisions without getting confused. 
+They are designed to be friendly and help you explore different details effortlessly, giving you useful insights without much effort.
+Find the image of the dashboard below. 
+
+![SAles dashboard_page-0001 (1)](https://github.com/dannieRope/Leads-Sales-Data-Analysis-Insights-Recommendations/assets/132214828/ae08dd45-cb43-41ac-83dd-946c13c764db)
+
 
 
 
