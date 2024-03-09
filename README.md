@@ -28,7 +28,16 @@ Mr. Gupta then has discussions with all the important stakeholders such as regio
 4.	There are 10 sales agents who are assigned the leads generated. These agents then get in touch with the respective persons and pitch them the products. All of them are also given half yearly sales targets. Mr. Gupta wants to classify these sales agents based on their performance and identify salesperson specific actions to increase the conversion rate of the leads.
 
 # OBJECTIVES
-The main objective of this project is to help Mr. Gupta in finding out the answers to his questions by analysing the Leads and sales data provided by the company. 
+This project aims to assist Mr. Gupta in obtaining insights by analysing the company's provided leads and sales data. The key business questions include:
+
+1. What is the sales contribution of each region to the overall total?
+   
+2. Which product boasts the highest Average Order Value (AOV)?
+   
+3. How does the monthly leads generation trend evolve over time?
+   
+4. How well are sales agents performing in comparison to their assigned sales targets?
+
 
 # THE DATA 
 
@@ -121,9 +130,66 @@ The formulas provided below are utilized to retrieve information from the sales 
    Conversion Day = IFERROR([@OrderDate]-[@[Lead date]],"Not Converted")
    ```
 
-Bellow is the image of the Data after cleaning and preparation, ready for analysis. 
+Below is the image of the Data after cleaning and preparation, ready for analysis. 
 
 ![Data](https://github.com/dannieRope/Leads-Sales-Data-Analysis-Insights-Recommendations/assets/132214828/8b0a3c6e-9ffa-4b94-93bb-b7e3518dac4d)
+
+# EXPLORATORY DATA ANALYSIS  
+
+To answer the business questions, I created pivot tables to summarize and aggregate datasets. Pivot tables help consolidate data, calculate totals, averages, counts, and other summary statistics.
+
+### QUESTION ONE 
+**•	What is the sales contribution of each region to the overall total?**
+
+![Sales by region](https://github.com/dannieRope/Leads-Sales-Data-Analysis-Insights-Recommendations/assets/132214828/bd5f6ddb-2f98-451a-8284-d3f4e06e27e1)
+
+
+**INSIGHTS** 
+
+1.	Western Region generated the highest number of sales $84,627.26 which is about 32% of the total the Eastern Region contributed around 30%, while the Central Region had the lowest sales at $47,561.88, constituting about 18% of the total.
+
+   
+### QUESTION TWO
+
+**•	Which product boasts the highest Average Order Value (AOV)?**
+
+![category by AOV](https://github.com/dannieRope/Leads-Sales-Data-Analysis-Insights-Recommendations/assets/132214828/1ad15308-c9cf-4d9a-b541-7d9934111f6a)
+
+
+**INSIGHTS**
+
+1.	Copy Paper and Letterhead emerge as the highest AOV, standing at $878.31 and $830.17 respectively. Envelopes exhibited the lowest AOV.
+   
+### QUESTION THREE
+
+**•	How does the monthly leads generation trend evolve over time?**
+
+![monthly leads](https://github.com/dannieRope/Leads-Sales-Data-Analysis-Insights-Recommendations/assets/132214828/34bb8bff-9305-4109-957f-8719c1dff8b7)
+
+
+**INSIGHTS**
+
+1.	Leads slightly decreased from January (134) to February (120) and then gradually increased through March, April, peaking in May (157), followed by a decline in June to 136.
+   
+### QUESTION FOUR
+
+**•	How well are sales agents performing in comparison to their assigned sales targets?**
+
+![Sales and Target](https://github.com/dannieRope/Leads-Sales-Data-Analysis-Insights-Recommendations/assets/132214828/c8d781bf-b75f-4e0a-bab9-49dce30530b3)
+
+
+![scatter plot](https://github.com/dannieRope/Leads-Sales-Data-Analysis-Insights-Recommendations/assets/132214828/c4688978-1bab-4134-9aef-96c6348b70ea)
+
+
+
+**INSIGHTS**
+
+1.	Michael and Toby showcased the highest sales figures at $34,970.1 and $33,746.4, respectively, while Angela recorded the lowest sales of $18,800.8.
+2.	All sales agents met their sales targets except for Pam and Jim.
+3.	With a 40% conversion rate deemed satisfactory, all agents, excluding Angela, Toby, and Ryan, exhibited commendable conversion rates.
+
+
+
 
 
 
