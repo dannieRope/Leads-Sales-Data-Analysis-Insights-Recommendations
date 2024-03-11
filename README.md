@@ -209,7 +209,7 @@ Find the image of the dashboard below.
 
 
 
-I appreciate you taking the time to read about this adventure. Find the final work [here](01a Dataset for Blunder Pifflin Case Study.xlsx)
+I appreciate you taking the time to read about this adventure. Find the final work [here](https://github.com/dannieRope/Leads-Sales-Data-Analysis-Insights-Recommendations/blob/main/01a%20Dataset%20for%20Blunder%20Pifflin%20Case%20Study.xlsx)
 
 
 ## THANK YOU
