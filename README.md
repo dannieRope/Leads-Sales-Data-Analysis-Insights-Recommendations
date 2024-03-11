@@ -198,6 +198,17 @@ Find the image of the dashboard below.
 ![SAles dashboard_page-0001 (1)](https://github.com/dannieRope/Leads-Sales-Data-Analysis-Insights-Recommendations/assets/132214828/ae08dd45-cb43-41ac-83dd-946c13c764db)
 
 
+# RECOMMENDATION 
+1.	Since the Western and Eastern region are higher contributors to the total sales, consider allocating resources and marketing effort to increase sales to further capitalize on the strength of these regions.
+   
+2.	Implement targeted marketing campaigns to promote and boost sales of Copy paper and explore opportunities to enhance its sales performance. Offer bundles, discounts, cross-selling, and promotions to entice customers to buy more letterhead.
+	
+3.	Investigate the factors contributing to the peak in May. Identify any marketing campaigns, promotions or external factors that contributed to the increase in leads. The result of the investigation will help shape future campaigns. Also examine the reasons for the decline in leads from May to June. If there are any specific issues, address them to prevent further decline.
+   
+4.	Recognise and reward top performers to boost moral and motivation. Also focus on improving the sales skill, product knowledge and understanding customers needs for lower performing agents. Investigate the reasons behind low conversion rates for Jim, Angela, Toby and Ryan and Identify potential objects or areas where improvements should be made. 
+
+
+
 
 
 
