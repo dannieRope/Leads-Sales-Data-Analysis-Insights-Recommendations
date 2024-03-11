@@ -90,9 +90,9 @@ It has 10 rows representing the total number of sales agents also a target colum
 
 
 # DATA CLEANING AND PREPARATION 
-I carefully examined the data to check for null values, duplicates, spelling errors, and inaccurate data types and issues were found, suggesting that the data has already been cleaned.
+I carefully examined the data to check for null values, duplicates, spelling errors, and inaccurate data types and no issues were found, suggesting that the data has already been cleaned.
 To simplify the analysis, I organized the data into tables and established named ranges, enhancing the readability of formulas.
-However, to effectively address the business issue, it became apparent that the leads data lacks certain columns in the sales data, including category, order date, and sales. To address this gap, I plan to utilize functions like VLOOKUP, XLOOKUP, and INDEX-MATCH. These functions will help join in the necessary information from the sales data into the leads data, ensuring a comprehensive dataset for a thorough analysis.
+However, to effectively address the business issue, I discovered that some columns in the leads data were missing but are found in the sales data, including category, order date, and sales. To address this gap, I utilized functions like VLOOKUP, XLOOKUP, and INDEX-MATCH. These functions will help join in the necessary information from the sales data into the leads data, ensuring a comprehensive dataset for a thorough analysis.
 The formulas provided below are utilized to retrieve information from the sales table based on the customer name in the leads table. Additionally, two columns, "Conversion" and "Conversion Day," have been added to aid in the analysis.
 
 1. **Category Formula:**
@@ -186,7 +186,7 @@ To answer the business questions, I created pivot tables to summarize and aggreg
 
 1.	Michael and Toby showcased the highest sales figures at $34,970.1 and $33,746.4, respectively, while Angela recorded the lowest sales of $18,800.8.
 2.	All sales agents met their sales targets except for Pam and Jim.
-3.	With a 40% conversion rate deemed satisfactory, all agents, excluding Angela, Toby, and Ryan, exhibited commendable conversion rates.
+3.	With a 40% conversion rate deemed satisfactory, all agents, excluding Angela, Toby, and Ryan, showed inadequate conversion rates.
 
 
 # THE DASHBOARD 
